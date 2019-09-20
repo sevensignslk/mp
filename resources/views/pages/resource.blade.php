@@ -1,5 +1,13 @@
-<p>@get('title')</p>
+@extends('layouts.master')
 
-Resources
+@section('content')
 
-<p>{{ Page::get('title') }}</p>
+<p>Videos</p>
+
+
+<h1>All videos page</h1>
+	
+<li><a href="{{ url('/resources/1') }}">Signle catergory video page</a></li>
+
+
+@endsection

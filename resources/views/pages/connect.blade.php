@@ -1,5 +1,8 @@
-<p>@get('title')</p>
+@extends('layouts.master')
 
-Connect
+@section('content')
 
-<p>{{ Page::get('title') }}</p>
+<p>Connect</p>
+
+
+@endsection

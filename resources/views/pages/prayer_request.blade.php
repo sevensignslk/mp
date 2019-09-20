@@ -2,9 +2,11 @@
 
 @section('content')
 
-<p>About</p>
+<h1>Prayer Request</h1>
+
+
+
+
 
 
 @endsection
-
- 

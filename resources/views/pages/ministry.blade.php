@@ -1,5 +1,8 @@
-<p>@get('title')</p>
+@extends('layouts.master')
 
-Ministry
+@section('content')
 
-<p>{{ Page::get('title') }}</p>
+<h1>Empower Ministry</h1>
+
+
+@endsection

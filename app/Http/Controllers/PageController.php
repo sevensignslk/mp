@@ -20,8 +20,6 @@ class PageController extends Controller
     
     }
 
-    //new
-
     /**
      * Get the fields for the about page by the resource.
      *
@@ -122,6 +120,67 @@ class PageController extends Controller
     }
 
 
+     /**
+     * Get the fields for the prayer_request page by the resource.
+     *
+     * @param 
+     * @return prayer_request view
+     */
+
+     public function PrayerRequest(){
+
+
+        return view('pages/prayer_request');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the send_testimoney page by the resource.
+     *
+     * @param 
+     * @return send_testimoney view
+     */
+
+     public function SendTestimoney(){
+
+
+        return view('pages/send_testimoney');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the donation page by the resource.
+     *
+     * @param 
+     * @return donation view
+     */
+
+     public function donation(){
+
+
+        return view('pages/donation');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the build_chruch page by the resource.
+     *
+     * @param 
+     * @return build_chruch view
+     */
+
+     public function BuildChruch(){
+
+
+        return view('pages/build_chruch');
+    
+    }
 
 
 

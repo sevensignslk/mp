@@ -1,5 +1,13 @@
-<p>@get('title')</p>
+@extends('layouts.master')
 
-testimonials page
+@section('content')
 
-<p>{{ Page::get('title') }}</p>
+<h1>Testimonials</h1>
+
+
+
+<li><a href="{{ url('/testimonials/articles') }}">testimonials articles</a></li>
+
+
+
+@endsection

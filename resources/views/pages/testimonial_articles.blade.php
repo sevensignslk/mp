@@ -1,10 +1,9 @@
+
 @extends('layouts.master')
 
 @section('content')
 
-<p>About</p>
+<h1>Testimonial articles</h1>
 
 
 @endsection
-
- 

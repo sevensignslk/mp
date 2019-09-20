@@ -1,5 +1,7 @@
-<p>@get('title')</p>
+@extends('layouts.master')
 
-events page
+@section('content')
 
-<p>{{ Page::get('title') }}</p>
+<h1>Eevents all</h1>
+
+@endsection

@@ -2,9 +2,7 @@
 
 @section('content')
 
-<p>About</p>
+<h1>Signle video Catergory page</h1>
 
 
 @endsection
-
- 

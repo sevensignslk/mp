@@ -2,9 +2,7 @@
 
 @section('content')
 
-<p>About</p>
+<h1>Build a church</h1>
 
 
 @endsection
-
- 
