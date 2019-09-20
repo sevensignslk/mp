@@ -20,6 +20,8 @@ class PageController extends Controller
     
     }
 
+    //new
+
     /**
      * Get the fields for the about page by the resource.
      *
