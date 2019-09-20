@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    container_name: ${APP_NAME}_web
+    build:
+      context: ./docker/web
